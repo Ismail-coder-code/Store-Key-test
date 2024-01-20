@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#heading1{
+    font-size: 50px;
+}
+#para1{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    background-position: center;
+}
+
+nav{
+    display: contents;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.game-item img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.buy-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: auto;
+    max-height: auto;
+}
+
+.whatsapp-icon {
+    color: #25d366; 
+    font-size: 24px;
+    margin-right: 5px;
+    max-width: auto;
+    max-height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+
+@media(max-width: 700px){
+    .container{
+        max-width: auto;
+        padding: auto;
+        height: auto;
+        width: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #para1{
+        font-size: 12px;
+    }
+    .game-item img{
+        width: auto;
+        height: auto;
+    }
+    .buy-btn{
+        font-size: 14px;
+        max-width: fit-content;
+        max-height: fit-content;
+        font-size: 12px;
+        size-adjust: auto;
+        flex-basis: calc(33.33% - 10px);
+    }
+    footer{
+        padding: 15px;
+        font-size: 12px;
+    }
+}
